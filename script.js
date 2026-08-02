@@ -12,11 +12,11 @@ const EVENT_DATA = {
   certificateText: "O certificado será emitido após o evento para participantes com inscrição prévia e presença confirmada.",
   participants: [
     {
-      name: "Maria de Fátima Hanaque Campos",
+      name: "Fátima Hanaque",
       role: "Coordenação do seminário, Planejamento Estratégico e Mesa Temática I",
       group: "Coordenação e articulação institucional",
       image: "assets/images/fatima-hanaque.jpg",
-      alt: "Retrato de Maria de Fátima Hanaque Campos",
+      alt: "Retrato de Fátima Hanaque",
       objectPosition: "52% 38%",
       treatment: "is-warm-editorial",
       initials: "FH"
@@ -40,11 +40,11 @@ const EVENT_DATA = {
       initials: "DT"
     },
     {
-      name: "Eduardo Manuel de Freitas Jorge",
+      name: "Eduardo Jorge",
       role: "Mesa Temática II: produção acadêmica e indicadores bibliométricos",
       group: "Conferência e mesas temáticas",
       image: "assets/images/eduardo-freitas-jorge.jpg",
-      alt: "Retrato de Eduardo Manuel de Freitas Jorge",
+      alt: "Retrato de Eduardo Jorge",
       objectPosition: "47% 24%",
       initials: "EF"
     }
@@ -87,7 +87,7 @@ const EVENT_DATA = {
       time: "14h00–15h30",
       session: "Mesa Temática II",
       title: "Critérios de produção acadêmica e indicadores bibliométricos",
-      speaker: "Eduardo Manuel de Freitas Jorge",
+      speaker: "Eduardo Jorge",
       status: "Participação remota confirmada",
       meta: "Mediação: Fabiane Caldas e Nádia Pires"
     },
@@ -103,7 +103,7 @@ const EVENT_DATA = {
   organization: {
     name: "Comissão de Planejamento Estratégico do PPGDC",
     team: [
-      "Maria de Fátima Hanaque Campos",
+      "Fátima Hanaque",
       "Urânia Maia",
       "Igor Sobral",
       "Fabiane Caldas",
