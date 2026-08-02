@@ -3,7 +3,7 @@ const EVENT_DATA = {
   theme: "Planejamento Estratégico e Autoavaliação",
   status: "Programação preliminar",
   date: "24 de agosto de 2026",
-  time: "8h30 às 17h30",
+  time: "8h30 às 17h",
   location: "Auditório da Reitoria do IFBA, Canela, Salvador/BA",
   registrationUrl: "https://forms.gle/QNzUyheT1ZPk66xF6",
   mapsUrl: "https://maps.app.goo.gl/VHeKD7UGJdAHbzjx6",
@@ -12,8 +12,17 @@ const EVENT_DATA = {
   certificateText: "O certificado será emitido após o evento para participantes com inscrição prévia e presença confirmada.",
   participants: [
     {
+      name: "Urânia Maia",
+      role: "Coordenação Geral do PPGDC, idealização do Seminário, abertura institucional, moderação da conferência e plenária de síntese",
+      group: "Coordenação e articulação institucional",
+      image: "assets/images/urania-maia.jpg",
+      alt: "Retrato de Urânia Maia",
+      objectPosition: "46% 42%",
+      initials: "UM"
+    },
+    {
       name: "Fátima Hanaque",
-      role: "Coordenação do seminário, Planejamento Estratégico e Mesa Temática I",
+      role: "Coordenação do Seminário, organização geral, Planejamento Estratégico e Mesa Temática",
       group: "Coordenação e articulação institucional",
       image: "assets/images/fatima-hanaque.jpg",
       alt: "Retrato de Fátima Hanaque",
@@ -22,18 +31,9 @@ const EVENT_DATA = {
       initials: "FH"
     },
     {
-      name: "Urânia Maia",
-      role: "Coordenação do PPGDC, avaliação quadrienal e plenária de síntese",
-      group: "Coordenação e articulação institucional",
-      image: "assets/images/urania-maia.jpg",
-      alt: "Retrato de Urânia Maia",
-      objectPosition: "46% 42%",
-      initials: "UM"
-    },
-    {
       name: "Djalma Thürler",
       role: "Conferência de abertura",
-      group: "Conferência e mesas temáticas",
+      group: "Conferência e palestra",
       image: "assets/images/djalma-thurler.jpg",
       alt: "Retrato de Djalma Thürler",
       objectPosition: "50% 44%",
@@ -41,8 +41,8 @@ const EVENT_DATA = {
     },
     {
       name: "Eduardo Jorge",
-      role: "Mesa Temática II: produção acadêmica e indicadores bibliométricos",
-      group: "Conferência e mesas temáticas",
+      role: "Palestra sobre produção acadêmica e indicadores bibliométricos",
+      group: "Conferência e palestra",
       image: "assets/images/eduardo-freitas-jorge.jpg",
       alt: "Retrato de Eduardo Jorge",
       objectPosition: "47% 24%",
@@ -59,58 +59,59 @@ const EVENT_DATA = {
       time: "09h00–10h15",
       session: "Conferência de abertura",
       title: "Planejamento estratégico e autoavaliação na Área Interdisciplinar da CAPES",
+      speakerLabel: "Conferencista",
       speaker: "Djalma Thürler",
       meta: "Moderação: Urânia Maia"
     },
     { time: "10h15–10h30", title: "Pausa para café", type: "break" },
     {
       time: "10h30–12h00",
-      session: "Mesa Temática I",
+      session: "Mesa temática",
       title: "Avaliação, autoavaliação e planejamento do PPGDC",
       subthemes: [
         {
-          title: "Avaliação quadrienal do PPGDC",
-          participants: "Participantes: Urânia Maia, Lisiane Weber e Euzébio Silva"
+          title: "Apresentação da avaliação quadrienal",
+          participants: "Participantes: Urânia Maia, Eduardo Meirelles e Lisiane Weber"
         },
         {
-          title: "Autoavaliação: processos, indicadores e cultura avaliativa",
+          title: "Autoavaliação no PPGDC: processos, indicadores e cultura avaliativa",
           participants: "Participantes: Fátima Hanaque, Igor Sobral e Fausto Guimarães"
         },
         {
           title: "Planejamento Estratégico do PPGDC 2025–2028",
-          participants: "Participantes: Fátima Hanaque, Urânia Maia e Ana Menezes"
+          participants: "Participantes: Fátima Hanaque e Urânia Maia"
         }
       ]
     },
     { time: "12h00–14h00", title: "Intervalo para almoço", type: "break" },
     {
       time: "14h00–15h30",
-      session: "Mesa Temática II",
-      title: "Critérios de produção acadêmica e indicadores bibliométricos",
+      session: "Palestra",
+      title: "Critérios de produção acadêmica para o PPGDC e indicadores bibliométricos",
+      speakerLabel: "Conferencista",
       speaker: "Eduardo Jorge",
       status: "Participação remota confirmada",
-      meta: "Mediação: Fabiane Caldas e Nádia Pires"
+      meta: "Moderação: Fabiane Caldas e Nádia Pires"
     },
     { time: "15h30–16h00", title: "Pausa para café", type: "break" },
     {
-      time: "16h00–17h30",
+      time: "16h00–17h00",
       session: "Plenária de síntese e proposições",
-      title: "Sistematização de prioridades, propostas e encaminhamentos para o quadriênio 2025–2028",
-      meta: "Coordenação: Urânia Maia e Fátima Hanaque"
+      title: "Sistematização de propostas e encaminhamentos do quadriênio 2025–2028",
+      meta: "Coordenação: Urânia Maia, Fátima Hanaque e Ana Maria Menezes"
     },
-    { time: "17h30", title: "Encerramento" }
+    { time: "17h00", title: "Encerramento" }
   ],
   organization: {
-    name: "Comissão de Planejamento Estratégico do PPGDC",
+    realization: "Programa de Pós-Graduação Multi-Institucional em Difusão do Conhecimento",
+    coordination: ["Urânia Maia", "Fátima Hanaque"],
     team: [
       "Fátima Hanaque",
-      "Urânia Maia",
       "Igor Sobral",
       "Fabiane Caldas",
-      "Nádia Pires",
-      "Fausto Guimarães",
       "Euzébio Silva",
-      "Lisiane Weber"
+      "Fausto Guimarães",
+      "Nádia Pires"
     ]
   }
 };
@@ -172,7 +173,7 @@ const EVENT_DATA = {
     setText("[data-event-introduction]", EVENT_DATA.introduction);
     setText("[data-registration-text]", EVENT_DATA.registrationText);
     setText("[data-certificate-text]", EVENT_DATA.certificateText);
-    setText("[data-organization-name]", EVENT_DATA.organization.name);
+    setText("[data-organization-realization]", EVENT_DATA.organization.realization);
 
     selectAll('a[href="https://forms.gle/QNzUyheT1ZPk66xF6"]').forEach((link) => {
       link.href = EVENT_DATA.registrationUrl;
@@ -186,7 +187,9 @@ const EVENT_DATA = {
     const container = select("[data-schedule]");
     if (!container) return;
 
-    EVENT_DATA.schedule.forEach((entry, index) => {
+    let activityIndex = 0;
+
+    EVENT_DATA.schedule.forEach((entry) => {
       const item = document.createElement("article");
       item.className = `timeline-item${entry.type === "break" ? " is-break" : ""}`;
 
@@ -211,7 +214,7 @@ const EVENT_DATA = {
       if (entry.speaker) {
         const speaker = document.createElement("p");
         speaker.className = "timeline-speaker";
-        speaker.textContent = entry.speaker;
+        speaker.textContent = entry.speakerLabel ? `${entry.speakerLabel}: ${entry.speaker}` : entry.speaker;
         content.append(speaker);
       }
 
@@ -259,7 +262,10 @@ const EVENT_DATA = {
       const itemIndex = document.createElement("span");
       itemIndex.className = "timeline-index";
       itemIndex.setAttribute("aria-hidden", "true");
-      itemIndex.textContent = String(index + 1).padStart(2, "0");
+      if (entry.type !== "break") {
+        activityIndex += 1;
+        itemIndex.textContent = String(activityIndex).padStart(2, "0");
+      }
 
       item.append(time, content, itemIndex);
       container.append(item);
@@ -323,14 +329,20 @@ const EVENT_DATA = {
   }
 
   function renderOrganization() {
-    const list = select("[data-organization-team]");
-    if (!list) return;
+    const coordinationList = select("[data-organization-coordination]");
+    const teamList = select("[data-organization-team]");
+    if (!coordinationList || !teamList) return;
 
-    EVENT_DATA.organization.team.forEach((person) => {
-      const item = document.createElement("li");
-      item.textContent = person;
-      list.append(item);
-    });
+    const renderPeople = (people, list) => {
+      people.forEach((person) => {
+        const item = document.createElement("li");
+        item.textContent = person;
+        list.append(item);
+      });
+    };
+
+    renderPeople(EVENT_DATA.organization.coordination, coordinationList);
+    renderPeople(EVENT_DATA.organization.team, teamList);
   }
 
   function setupMenu() {
