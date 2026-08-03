@@ -109,9 +109,9 @@ const EVENT_DATA = {
       "Fátima Hanaque",
       "Igor Sobral",
       "Fabiane Caldas",
-      "Euzébio Silva",
+      "Nádia Pires",
       "Fausto Guimarães",
-      "Nádia Pires"
+      "Euzébio Silva"
     ]
   }
 };
