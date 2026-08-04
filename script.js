@@ -7,7 +7,7 @@ const EVENT_DATA = {
   registrationUrl: "https://forms.gle/QNzUyheT1ZPk66xF6",
   mapsUrl: "https://maps.app.goo.gl/VHeKD7UGJdAHbzjx6",
   introduction: "O Seminário Interdisciplinar 2026 reúne a comunidade do PPGDC para relacionar a avaliação do Programa, o processo de autoavaliação e o Planejamento Estratégico 2025–2028 às orientações da Área Interdisciplinar da CAPES.",
-  registrationText: "A inscrição prévia é necessária para quem desejar receber certificado. Mesmo quem ainda não tiver certeza sobre sua participação deve preencher o formulário, para que seu nome conste na lista de presença. É esperada a participação dos discentes ativos do PPGDC.",
+  registrationText: "A inscrição prévia é necessária para quem desejar receber certificado. Mesmo quem ainda não tiver certeza sobre sua participação deve preencher o formulário, para que seu nome conste na lista de inscritos. É esperada a participação dos discentes ativos do PPGDC.",
   certificateText: "O certificado será emitido após o evento para participantes com inscrição prévia e presença confirmada.",
   participants: [
     {
@@ -69,7 +69,7 @@ const EVENT_DATA = {
       title: "Avaliação, autoavaliação e planejamento do PPGDC",
       subthemes: [
         {
-          title: "Apresentação da avaliação Quadrienal",
+          title: "Apresentação da avaliação quadrienal",
           participants: "Conferencistas: Prof.ª Dr.ª Urânia Auxiliadora Santos Maia de Oliveira, Prof. Dr. Eduardo Meirelles e Prof.ª Dr.ª Lisiane Weber Moreira"
         },
         {
