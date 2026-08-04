@@ -253,20 +253,6 @@ h3 { font-size: 1.15rem; }
 .hero-copy { position: relative; padding: 0 0 3rem 1.6rem; }
 .eyebrow { max-width: 48ch; color: var(--light-blue); }
 
-.status {
-  display: inline-flex;
-  align-items: center;
-  gap: .55rem;
-  margin: 0 0 1.15rem;
-  padding: .35rem .7rem;
-  border: 1px solid rgba(199, 217, 232, .5);
-  border-radius: 999px;
-  color: var(--cream);
-  font-size: .78rem;
-  font-weight: 750;
-}
-
-.status > span:first-child { width: .45rem; height: .45rem; background: var(--terracotta); border-radius: 50%; }
 .hero-theme { max-width: 31ch; margin-bottom: 0; color: var(--light-blue); font-family: var(--font-serif); font-size: clamp(1.3rem, 2.25vw, 1.85rem); font-style: italic; line-height: 1.25; }
 
 .hero-facts {

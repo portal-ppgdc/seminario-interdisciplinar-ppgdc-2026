@@ -1,7 +1,6 @@
 const EVENT_DATA = {
   title: "Seminário Interdisciplinar 2026 do PPGDC",
   theme: "Planejamento Estratégico e Autoavaliação",
-  status: "Programação preliminar",
   date: "24 de agosto de 2026",
   time: "8h30 às 17h",
   location: "Auditório da Reitoria do IFBA, Canela, Salvador/BA",
@@ -12,26 +11,26 @@ const EVENT_DATA = {
   certificateText: "O certificado será emitido após o evento para participantes com inscrição prévia e presença confirmada.",
   participants: [
     {
-      name: "Urânia Maia",
+      name: "Prof.ª Dr.ª Urânia Auxiliadora Santos Maia de Oliveira",
       role: "Coordenação Geral do PPGDC, idealização do Seminário, abertura institucional, moderação da conferência e plenária de síntese",
       group: "Coordenação e articulação institucional",
       image: "assets/images/urania-maia.jpg",
-      alt: "Retrato de Urânia Maia",
+      alt: "Retrato de Urânia Auxiliadora Santos Maia de Oliveira",
       objectPosition: "46% 42%",
       initials: "UM"
     },
     {
-      name: "Fátima Hanaque",
+      name: "Prof.ª Dr.ª Maria de Fátima Hanaque Campos",
       role: "Coordenação do Seminário, organização geral, Planejamento Estratégico e Mesa Temática",
       group: "Coordenação e articulação institucional",
       image: "assets/images/fatima-hanaque.jpg",
-      alt: "Retrato de Fátima Hanaque",
+      alt: "Retrato de Maria de Fátima Hanaque Campos",
       objectPosition: "52% 38%",
       treatment: "is-warm-editorial",
       initials: "FH"
     },
     {
-      name: "Djalma Thürler",
+      name: "Prof. Dr. Djalma Thürler",
       role: "Conferência de abertura",
       group: "Conferência e palestra",
       image: "assets/images/djalma-thurler.jpg",
@@ -40,11 +39,11 @@ const EVENT_DATA = {
       initials: "DT"
     },
     {
-      name: "Eduardo Jorge",
+      name: "Prof. Dr. Eduardo Manuel de Freitas Jorge",
       role: "Palestra sobre produção acadêmica e indicadores bibliométricos",
       group: "Conferência e palestra",
       image: "assets/images/eduardo-freitas-jorge.jpg",
-      alt: "Retrato de Eduardo Jorge",
+      alt: "Retrato de Eduardo Manuel de Freitas Jorge",
       objectPosition: "47% 24%",
       initials: "EF"
     }
@@ -53,65 +52,68 @@ const EVENT_DATA = {
     {
       time: "08h30–09h00",
       title: "Abertura institucional",
-      meta: "Coordenação: Urânia Maia e Fátima Hanaque"
+      meta: "Participantes: Prof.ª Dr.ª Urânia Auxiliadora Santos Maia de Oliveira e Prof.ª Dr.ª Maria de Fátima Hanaque Campos"
     },
     {
       time: "09h00–10h15",
       session: "Conferência de abertura",
       title: "Planejamento estratégico e autoavaliação na Área Interdisciplinar da CAPES",
       speakerLabel: "Conferencista",
-      speaker: "Djalma Thürler",
-      meta: "Moderação: Urânia Maia"
+      speaker: "Prof. Dr. Djalma Thürler",
+      meta: "Moderadora: Prof.ª Dr.ª Urânia Auxiliadora Santos Maia de Oliveira"
     },
-    { time: "10h15–10h30", title: "Pausa para café", type: "break" },
+    { time: "10h15–10h30", title: "Café", type: "break" },
     {
       time: "10h30–12h00",
-      session: "Mesa temática",
+      session: "Mesa Temática",
       title: "Avaliação, autoavaliação e planejamento do PPGDC",
       subthemes: [
         {
-          title: "Apresentação da avaliação quadrienal",
-          participants: "Participantes: Urânia Maia, Eduardo Meirelles e Lisiane Weber"
+          title: "Apresentação da avaliação Quadrienal",
+          participants: "Conferencistas: Prof.ª Dr.ª Urânia Auxiliadora Santos Maia de Oliveira, Prof. Dr. Eduardo Meirelles e Prof.ª Dr.ª Lisiane Weber Moreira"
         },
         {
           title: "Autoavaliação no PPGDC: processos, indicadores e cultura avaliativa",
-          participants: "Participantes: Fátima Hanaque, Igor Sobral e Fausto Guimarães"
+          participants: "Conferencistas: Prof.ª Dr.ª Maria de Fátima Hanaque Campos, Prof. Igor Sobral Muniz e Fausto Ferreira Costa Guimarães"
         },
         {
-          title: "Planejamento Estratégico do PPGDC 2025–2028",
-          participants: "Participantes: Fátima Hanaque e Urânia Maia"
+          title: "Planejamento Estratégico do PPGDC (2025–2028)",
+          participants: "Conferencistas: Prof.ª Dr.ª Maria de Fátima Hanaque Campos e Prof.ª Dr.ª Urânia Auxiliadora Santos Maia de Oliveira"
         }
       ]
     },
-    { time: "12h00–14h00", title: "Intervalo para almoço", type: "break" },
+    { time: "12h00–14h00", title: "Pausa", type: "break" },
     {
       time: "14h00–15h30",
       session: "Palestra",
-      title: "Critérios de produção acadêmica para o PPGDC e indicadores bibliométricos",
+      title: "Critérios de Produção Acadêmica para o PPGDC e Indicadores Bibliométricos",
       speakerLabel: "Conferencista",
-      speaker: "Eduardo Jorge",
+      speaker: "Prof. Dr. Eduardo Manuel de Freitas Jorge",
       status: "Participação remota confirmada",
-      meta: "Moderação: Fabiane Caldas e Nádia Pires"
+      meta: "Moderadoras: Prof.ª Fabiane de Jesus Caldas Brito e Prof.ª Nádia Pires Alves"
     },
-    { time: "15h30–16h00", title: "Pausa para café", type: "break" },
+    { time: "15h30–16h00", title: "Café", type: "break" },
     {
       time: "16h00–17h00",
       session: "Plenária de síntese e proposições",
       title: "Sistematização de propostas e encaminhamentos do quadriênio 2025–2028",
-      meta: "Coordenação: Urânia Maia, Fátima Hanaque e Ana Maria Menezes"
+      meta: "Conferencistas: Prof.ª Dr.ª Urânia Auxiliadora Santos Maia de Oliveira, Prof.ª Dr.ª Maria de Fátima Hanaque Campos e Prof.ª Dr.ª Ana Maria Ferreira Menezes"
     },
     { time: "17h00", title: "Encerramento" }
   ],
   organization: {
     realization: "Programa de Pós-Graduação Multi-Institucional em Difusão do Conhecimento",
-    coordination: ["Urânia Maia", "Fátima Hanaque"],
+    coordination: [
+      "Prof.ª Dr.ª Urânia Auxiliadora Santos Maia de Oliveira",
+      "Prof.ª Dr.ª Maria de Fátima Hanaque Campos"
+    ],
     team: [
-      "Fátima Hanaque",
-      "Igor Sobral",
-      "Fabiane Caldas",
-      "Nádia Pires",
-      "Fausto Guimarães",
-      "Euzébio Silva"
+      "Prof.ª Dr.ª Maria de Fátima Hanaque Campos",
+      "Prof. Igor Sobral Muniz",
+      "Prof.ª Fabiane de Jesus Caldas Brito",
+      "Prof.ª Nádia Pires Alves",
+      "Euzébio Raimundo da Silva",
+      "Fausto Ferreira Costa Guimarães"
     ]
   }
 };
@@ -165,7 +167,6 @@ const EVENT_DATA = {
   function renderEventDetails() {
     setText("[data-event-title]", EVENT_DATA.title);
     setText("[data-event-theme]", EVENT_DATA.theme);
-    setText("[data-event-status]", EVENT_DATA.status);
     setText("[data-event-date]", EVENT_DATA.date);
     setText("[data-event-time]", EVENT_DATA.time);
     setText("[data-event-location]", EVENT_DATA.location);
